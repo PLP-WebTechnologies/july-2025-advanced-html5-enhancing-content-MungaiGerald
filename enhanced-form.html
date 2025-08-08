@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply to Be a Meme-Fueled Front-End Developer</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Apply to Be a Meme-Fueled Front-End Developer! 🤓</h1>
+        <p>If you speak fluent HTML, scream at CSS, and survive on JavaScript, this is for you.</p>
+    </header>
+
+    <main>
+
+        <!-- Perks List -->
+        <section>
+            <h2>📝 Job Perks (According to Memes)</h2>
+            <ul>
+                <li>Free coffee (but you’ll spill it during a deployment)</li>
+                <li>Unlimited Stack Overflow searches</li>
+                <li>Office chair races every Friday</li>
+            </ul>
+        </section>
+
+        <!-- Frameworks Table -->
+        <section>
+            <h2>📊 Front-End Frameworks (Totally Unbiased Table)</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Framework</th>
+                        <th>Learning Curve</th>
+                        <th>React-o-Meter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>React</td>
+                        <td>Medium</td>
+                        <td>🔥🔥🔥🔥</td>
+                    </tr>
+                    <tr>
+                        <td>Vue</td>
+                        <td>Easy</td>
+                        <td>🔥🔥🔥</td>
+                    </tr>
+                    <tr>
+                        <td>Angular</td>
+                        <td>Hard</td>
+                        <td>🔥🔥</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Media Showcase -->
+        <section>
+            <h2>📸 A Peek Into the Developer Life</h2>
+            <img src="https://i.programmerhumor.io/2022/11/programmerhumor-io-programming-memes-59035894291b969.jpg"
+                alt="Coding Meme" width="20%" border="1" />
+
+            <h3>🎶 Developer Jam</h3>
+            <audio controls>
+                <source
+                    src="https://cdn.pixabay.com/download/audio/2022/11/11/audio_3ae82599ac.mp3?filename=mirror-125601.mp3"
+                    type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+
+            <h3>🎥 Developer Life in 5 Seconds</h3>
+            <iframe width="320" height="240" src="https://www.youtube.com/embed/7LNwV5JHjfg"
+                title="Developer Life in 5 Seconds" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <!-- Application Form -->
+        <article>
+            <h2>🧾 Application Form</h2>
+            <form method="post" action="#">
+
+                <!-- Personal Info -->
+                <fieldset>
+                    <legend>👤 Applicant Info</legend>
+
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name" required minlength="2"
+                        autocomplete="name"><br><br>
+
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required
+                        autocomplete="email"><br><br>
+
+                    <label for="portfolio">Portfolio or GitHub:</label><br>
+                    <input type="url" id="portfolio" name="portfolio" placeholder="https://github.com/yourusername"
+                        pattern="https://.*" required><br><br>
+                </fieldset>
+
+                <!-- Skills & Experience -->
+                <fieldset>
+                    <legend>🧠 Skills & Preferences</legend>
+
+                    <label for="fav-language">Favorite Programming Language:</label><br>
+                    <input type="text" id="fav-language" name="fav-language" list="languages" required>
+                    <datalist id="languages">
+                        <option value="JavaScript">
+                        <option value="HTML">
+                        <option value="CSS">
+                        <option value="Python">
+                        <option value="TypeScript">
+                    </datalist><br><br>
+
+                    <label for="css-stress">CSS Stress Level (1 to 10):</label><br>
+                    <input type="range" id="css-stress" name="css-stress" min="1" max="10"><br><br>
+
+                    <label for="experience">Years of Experience:</label><br>
+                    <input type="number" id="experience" name="experience" min="0" max="50" placeholder="0"
+                        required><br><br>
+
+                    <label for="message">Why do you want this (memetastic) job?</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                </fieldset>
+
+                <!-- Agreement -->
+                <fieldset>
+                    <legend>✅ Final Step</legend>
+
+                    <label>
+                        <input type="checkbox" name="agree" required>
+                        I promise not to deploy on Friday.
+                    </label><br><br>
+
+                    <label for="readonly-demo">(Haha😂 Sorry, You Can’t Edit This):</label><br>
+                    <input type="text" id="readonly-demo" value="Meme-Powered Applicant" readonly><br><br>
+
+                    <button type="submit">Submit Application ✅</button>
+                </fieldset>
+
+            </form>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gerald Inc. | Built with ❤️ and broken CSS</p>
+    </footer>
+
+</body>
+
+</html>
